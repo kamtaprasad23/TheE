@@ -3,7 +3,6 @@ import path from 'path';
 import XLSX from 'xlsx';
 import { PDFDocument, StandardFonts, rgb } from 'pdf-lib';
 import sharp from "sharp";
-import pdfPoppler from "pdf-poppler";
 import * as labelService from "../services/label.service.js";
 import * as pdfService from "../services/pdf.service.js";
 import * as claimService from "../services/claim.service.js";
